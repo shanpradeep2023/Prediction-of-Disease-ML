@@ -7,7 +7,7 @@ st.set_page_config(page_title='Prediction of Desease Outbreaks',layout='wide',pa
 
 diabetes_model = pickle.load(open(r"C:\Users\shanp\Documents\PRADEEP\Learning\ML\training\diabetes_model.sav",'rb'))
 heart_model = pickle.load(open(r"C:\Users\shanp\Documents\PRADEEP\Learning\ML\training\heart_model.sav",'rb'))
-# parkinsons_model = pickle.load(open("C:\Users\shanp\Documents\PRADEEP\Learning\ML\training\diabetes_model.sav",'rb'))
+parkinsons_model = pickle.load(open(r"C:\Users\shanp\Documents\PRADEEP\Learning\ML\training\parkinsons_model.sav",'rb'))
 
 with st.sidebar:
     selected = option_menu('Prediction od disease outbreak systems',['Diabetes Prediction','Heart desease Prediction','Parkinsons Prediction'],menu_icon='hospital-fill',icons=['activity','heart','person'],default_index=0)
