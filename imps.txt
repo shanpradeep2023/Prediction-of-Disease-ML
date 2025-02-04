@@ -1,0 +1,9 @@
+https://www.youtube.com/playlist?list=PL_iOxYoQ-pUat4FKWs2SJyp4UupQ8Kt7h
+https://github.com/JayRathod341997/AICTE-Internship-files
+https://techsaksham.org/
+
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shanpradeep2023/Prediction-of-Disease-ML.git
+git push -u origin main
